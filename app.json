@@ -1,0 +1,23 @@
+{
+  "id": "ac357ac8-e354-49ef-9d6e-e672775227d6",
+  "name": "NAV2018RULaunch",
+  "publisher": "Dmitry Katson",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}

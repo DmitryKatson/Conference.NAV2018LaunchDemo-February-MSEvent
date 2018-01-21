@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "",
+            "server": "http://navserver",
+            "serverInstance": "nav",
+            "authentication": "UserPassword",
+            "startupObjectId": 50100
+        }
+    ]
+}
