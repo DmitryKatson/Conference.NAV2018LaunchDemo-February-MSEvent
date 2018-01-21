@@ -90,10 +90,10 @@ page 50100 Tweets
 
     begin
         CalculateAverageSentimental(AverageSentimental);
-        If AverageSentimental >= 0.6 then
+        If AverageSentimental >= 0.5 then
           EmojiPicture.SaveEmojiPicture(1);
         
-        If (AverageSentimental >= 0.2) and (AverageSentimental < 0.6) then
+        If (AverageSentimental >= 0.2) and (AverageSentimental < 0.5) then
           EmojiPicture.SaveEmojiPicture(0);
 
         If (AverageSentimental > 0) and (AverageSentimental < 0.2) then
@@ -115,14 +115,14 @@ page 50100 Tweets
 
     local procedure DeleteAllPositiveTweets ();
     begin
-        SetRange(Sentiment,0.6,1);
+        SetRange(Sentiment,0.5,1);
         DeleteAll;
         Reset;
     end;
 
     local procedure DeleteAllNeutralTweets ();
     begin
-        SetRange(Sentiment,0.2,0.6);
+        SetRange(Sentiment,0.2,0.5);
         DeleteAll;
         Reset;
 
